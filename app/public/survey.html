@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">\
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-sm-10 offset-sm-1">
+            <h1>
+                <u>Survey Questions</u>
+            </h1>
+            <br>
+            <h3>
+                <b>About You</b>
+            </h3>
+            <p>Name (Required)</p>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                </div>
+                <input type="text" class="form-control validate" id="userName" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+            <p>Link to a photo of yourself (Required)</p>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Photo</span>
+                </div>
+                <input type="text" class="form-control validate" id="userPhoto" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-sm-10 offset-sm-1">
+            <div class="questions">
+                <h3>Question 1</h3>
+                <h4>A clean house is important.</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Your Preference</label>
+                <br>
+                <select class="browser-default" id="question1">
+                    <option selected></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h3>Question 2</h3>
+                <h4>I would consider myself a clean person.</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Your Preference</label>
+                <br>
+                <select class="browser-default" id="question2">
+                    <option selected></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h3>Question 3</h3>
+                <h4>I love dogs!</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Your Preference</label>
+                <br>
+                <select class="browser-default" id="question3">
+                    <option selected></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h3>Question 4</h3>
+                <h4>I enjoy cooking at home.</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Your Preference</label>
+                <br>
+                <select class="browser-default" id="question4">
+                    <option selected></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h3>Question 5</h3>
+                <h4>I like to party!</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Your Preference</label>
+                <br>
+                <select class="browser-default" id="question5">
+                    <option selected></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h3>Question 6</h3>
+                <h4>I consider myself a homebody.</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Your Preference</label>
+                <br>
+                <select class="browser-default" id="question6">
+                    <option selected></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h3>Question 7</h3>
+                <h4>I am a morning person.</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Your Preference</label>
+                <br>
+                <select class="browser-default" id="question7">
+                    <option selected></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h3>Question 8</h3>
+                <h4>I am busy most of the time.</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Your Preference</label>
+                <br>
+                <select class="browser-default" id="question8">
+                    <option selected></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h3>Question 9</h3>
+                <h4>I really enjoy my alone time.</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Your Preference</label>
+                <br>
+                <select class="browser-default" id="question9">
+                    <option selected></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h3>Question 10</h3>
+                <h4>I watch movies for most of my free time.</h4>
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Your Preference</label>
+                <br>
+                <select class="browser-default" id="question10">
+                    <option selected></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="subbutton">Submit your answers</button>
+            <br>
+            <p>
+                <a href="#">API Friends list</a> ||
+                <a href="#">Github</a> ||
+                <a href="/">Home</a>
+            </p>
+        </div>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="mymodal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Best Match</h5>
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="bestPick"><b></b></p>
+                    <img id="picker" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" aria-label="Close">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        //get all data and store in in our database
+        $("#subbutton").on("click", function () {
+            var isValid = true;
+            $('.validate').each(function () {
+                if ($(this).val() === '') {
+                    isValid = false;
+                    
+                }
+            });
+            $('.browser-default').each(function () {
+                if ($(this).val() === "") {
+                    isValid = false;
+                }
+            });
+         
+
+            if (isValid === true) {
+                gatherInfo();
+                alert("you have added your profile! Here is your best match")
+                modal()
+                clear();
+
+            }
+            else {
+                alert("You must fill out all forms first!")
+            }
+        });
+
+        function modal() {
+            $('#mymodal').modal('show');
+        }
+
+        function gatherInfo() {
+            var userInput = {
+                name: $("#userName").val().trim(),
+                photo: $("#userPhoto").val().trim(),
+                scores: [
+                    $("#question1").val().trim(),
+                    $("#question2").val().trim(),
+                    $("#question3").val().trim(),
+                    $("#question4").val().trim(),
+                    $("#question5").val().trim(),
+                    $("#question6").val().trim(),
+                    $("#question7").val().trim(),
+                    $("#question8").val().trim(),
+                    $("#question9").val().trim(),
+                    $("#question10").val().trim()
+
+                ]
+
+            }
+            
+            $.post("/api/friends", userInput, function (data) {
+
+                $("#bestPick").text(data.name);
+                $("#picker").attr("src",data.photo);
+                
+
+
+            })
+           
+
+        };
+        function clear() {
+            $("#userName").val("");
+            $("#userPhoto").val("");
+            $("#question1").val("");
+            $("#question2").val("");
+            $("#question3").val("");
+            $("#question4").val("");
+            $("#question5").val("");
+            $("#question6").val("");
+            $("#question7").val("");
+            $("#question8").val("");
+            $("#question9").val("");
+            $("#question10").val("");
+            
+        };
+
+
+
+
+              //loop through all our data and find the closest match
+
+
+              //then we want to access the object that is the closest match and diplay the name and picture to the modal
+
+
+
+
+    </script>
+</body>
+
+</html>
